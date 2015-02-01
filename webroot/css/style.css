@@ -1,0 +1,169 @@
+/**
+ * General elements
+ */
+
+@import url(figure.css);
+
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+  overflow-y: scroll;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+
+
+/**
+ * Layout of the main page elements 
+ */
+.wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 10px;
+}
+
+.center {
+  margin: 0 auto;
+  width: 980px; 
+}
+
+
+.right {
+	float:right;
+}
+
+
+/**
+ * Layout for header
+ */
+#header {
+	background-color: #000;
+	position: relative;
+	height: 50px;
+}
+
+
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  /*position: absolute;*/
+  /*text-align:center;*/
+  /*left: 130px;*/
+  /*font-style: italic;*/
+  color: #666;
+}
+
+
+#header a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.login p{
+	color: #fff;
+}
+
+
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+}
+
+
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 22px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+
+/**
+ * For articles
+ */
+.article1 {
+  width: 700px;
+  border-right: 1px solid #ccc;
+  padding-right: 1em;
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+
+.byline {
+	width: 100%;
+  margin-top: 44px;
+  margin-bottom: 44px;
+  border-top: 1px dashed #ccc;
+  border-bottom: 1px dashed #ccc;
+ /* padding-top: 22px;*/
+ padding: 20px 20px 0 20px;
+  color: #666;
+  height: 100px;
+}
+
+.byline p {
+  font-size: 11px;
+  font-style: italic;
+  float: right;
+  width: 90%;
+}
+
+
+.byline img {
+  float: left;
+  height: 80px;
+}
+
+/*Questions*/
+#question {
+	padding-left: 10px;
+}
+
+#question-header,
+.answer-header 
+{
+	background-color: #F7F7F7;
+	padding: 10px;
+}
+
+#question-body,
+.answer-body
+{
+	padding: 10px;
+}
+
+#question-footer {
+	padding: 10px;
+}
+
+.comments {
+	padding: 30px;
+	background-color: #F7F7F7;
+	font-size: 11px;
+}
+
+#answers {
+	padding: 30px;
+}
+

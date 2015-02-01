@@ -1,0 +1,17 @@
+#header,
+#navbar,
+#flash_1,
+#flash_2,
+#main_1,
+#main_2,
+#featured-1,
+#featured-2,
+#featured-3,
+#triptych-1,
+#triptych-2,
+#triptych-3,
+#footer {
+	background-color: rgba(50,50,50,0.3);
+}
+ 
+#flash_1 {background-image: none}

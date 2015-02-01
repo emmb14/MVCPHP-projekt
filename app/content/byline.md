@@ -1,0 +1,2 @@
+Denna webbplats är utvecklad av Emma Malmkjell och är ett projekt i kursen Databasdrivna webbapplikationer med PHP och MVC.
+Emma Malmkjell studerar kurspaketet "Databaser HTML, CSS, JavaScript och PHP" på Blekinge Tekniska Högskola.

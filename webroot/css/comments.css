@@ -1,0 +1,20 @@
+.comment_img{
+	float: left;
+	margin-right: 10px;
+}
+
+.comment_header{
+	height: 50px;
+	font-size: 13px;
+}
+
+
+.comment_name{
+	float: left;
+}
+
+
+small{
+	font-size: 12px; 
+	color: #888;
+}
